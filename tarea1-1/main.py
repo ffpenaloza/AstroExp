@@ -53,18 +53,23 @@ for i in matches:
 # Salida a archivo
 np.savetxt('n121_match.cat',out,
 	fmt='%d\t%.4f\t%.4f\t%.7f\t%.7f\t%d\t%.4f\t%.4f\t%.7f\t%.7f',
-	header='f555wN\tf555wMAG\tf555wMAGERR\tf555wALPHA\tf555wDELTA\tf814wN\tf814wMAG\tf814wMAGERR\tf814wALPHA\tf814wDELTA',
-	footer='END')
+	header='f555wN\tf555wMAG\tf555wMAGERR\tf555wALPHA\tf555wDELTA\tf814wN\tf814wMAG\tf814wMAGERR\tf814wALPHA\tf814wDELTA')
 
-# Genera plot
-tbl = ascii.read('n121_match.cat')
-plt.scatter((tbl["f555wMAG"]+0.24) - (tbl["f814wMAG"]+0.452) +  (3.180-1.803), (tbl["f555wMAG"]+0.24-3.180),c='black',s=1)
-plt.xlim(0, 3)
-plt.ylim(reversed(plt.ylim(14,22.5)))
+# Corrige por apertura y reddening E(B-V) = 0.133
+tbl = ascii.read('n121_match.cat') 
+tbl["f555wMAG"] = tbl["f555wMAG"] - 0.240 - 0.1049
+tbl["f814wMAG"] = tbl["f814wMAG"] - 0.452 - 0.2398
+ascii.write(tbl,output='n121_match.cat',delimiter='\t')
+
+# Genera plot calibrado
+plt.scatter(tbl["f555wMAG"] - tbl["f814wMAG"], tbl["f555wMAG"],c='black',s=1)
+plt.xlim(-0.5, 2)
+plt.ylim(reversed(plt.ylim(16,25)))
 plt.xlabel("$F555W-F814W$", fontsize=20)
 plt.ylabel("$F555W$", fontsize=20)
 plt.savefig('cmd_n121', dpi=None, facecolor='w', edgecolor='w',
         orientation='portrait', papertype=None, format=None,
         transparent=False, bbox_inches=None, pad_inches=0.1,
         frameon=None)
+
 

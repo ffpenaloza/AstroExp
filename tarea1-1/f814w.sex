@@ -50,9 +50,9 @@ PHOT_AUTOAPERS   0.0,0.0        # <estimation>,<measurement> minimum apertures
 SATUR_LEVEL      620000.0        # level (in ADUs) at which arises saturation
 SATUR_KEY        SATURATE       # keyword for saturation level (in ADUs)
  
-MAG_ZEROPOINT    24.86147            # magnitude zero-point
+MAG_ZEROPOINT    24.86147       # magnitude zero-point
 MAG_GAMMA        4.0            # gamma of emulsion (for photographic scans)
-GAIN             4            # detector gain in e-/ADU
+GAIN             1            # detector gain in e-/ADU
 GAIN_KEY         GAIN           # keyword for detector gain in e-/ADU
 PIXEL_SCALE      0.025          # size of pixel in arcsec (0=use FITS WCS info)
  
