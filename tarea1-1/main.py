@@ -55,10 +55,10 @@ np.savetxt('n121_match.cat',out,
 	fmt='%d\t%.4f\t%.4f\t%.7f\t%.7f\t%d\t%.4f\t%.4f\t%.7f\t%.7f',
 	header='f555wN\tf555wMAG\tf555wMAGERR\tf555wALPHA\tf555wDELTA\tf814wN\tf814wMAG\tf814wMAGERR\tf814wALPHA\tf814wDELTA')
 
-# Corrige por apertura y reddening E(B-V) = 0.133
+# Corrige por apertura y reddening E(B-V) = 0.04
 tbl = ascii.read('n121_match.cat') 
-tbl["f555wMAG"] = tbl["f555wMAG"] - 0.240 - 0.1049
-tbl["f814wMAG"] = tbl["f814wMAG"] - 0.452 - 0.2398
+tbl["f555wMAG"] = tbl["f555wMAG"] - 0.240 - 0.1272
+tbl["f814wMAG"] = tbl["f814wMAG"] - 0.452 - 0.07212
 ascii.write(tbl,output='n121_match.cat',delimiter='\t')
 
 # Genera plot calibrado
