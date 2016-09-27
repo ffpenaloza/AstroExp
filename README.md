@@ -13,5 +13,10 @@ Tareas de Astro Experimental
 			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea2-1/Respuestas.ipynb">Parte 1</a></li>
 			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea2-2/tarea2.2.ipynb">Parte 2</a></li>
 		</ul>
-	</li>	
+	</li>
+	<li>Tarea 3
+		<ul>
+			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea3-1/tarea3-1.ipynb">Parte 1</a></li>
+		</ul>
+	</li>
 </ol>
