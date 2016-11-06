@@ -20,4 +20,9 @@ Tareas de Astro Experimental
 			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea3-2/tarea3-2.ipynb">Parte 2</a></li>
 		</ul>
 	</li>
+	<li>Tarea 4
+		<ul>
+			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea4-1/tarea4-1.ipynb">Parte 1</a></li>
+		</ul>
+	</li>
 </ol>
