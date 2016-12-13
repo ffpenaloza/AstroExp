@@ -1,34 +1,21 @@
 # AstroExp
 Tareas de Astro Experimental
 
-<ol>
-	<li>Tarea 1
-		<ul>
-			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea1-1/Respuestas.ipynb">Parte 1</a></li>
-			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea1-2/Respuesta.ipynb">Parte 2</a></li>
-		</ul>
-	</li>
-	<li>Tarea 2
-		<ul>
-			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea2-1/Respuestas.ipynb">Parte 1</a></li>
-			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea2-2/tarea2.2.ipynb">Parte 2</a></li>
-		</ul>
-	</li>
-	<li>Tarea 3
-		<ul>
-			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea3-1/tarea3-1.ipynb">Parte 1</a></li>
-			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea3-2/tarea3-2.ipynb">Parte 2</a></li>
-		</ul>
-	</li>
-	<li>Tarea 4
-		<ul>
-			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea4-1/tarea4-1.ipynb">Parte 1</a></li>
-			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea4-2/Tarea4-2.ipynb">Parte 2</a></li>
-		</ul>
-	</li>
-	<li>Tarea 5
-		<ul>
-			<li><a href="https://github.com/ffpenaloza/AstroExp/blob/master/tarea5/tarea5.ipynb">Parte 1</a></li>
-		</ul>
-	</li>
-</ol>
+1. Tarea 1
+	* [Parte 1](https://github.com/ffpenaloza/AstroExp/blob/master/tarea1-1/Respuestas.ipynb): Fotometría de NGC121
+	* [Parte 2](https://github.com/ffpenaloza/AstroExp/blob/master/tarea1-2/Respuesta.ipynb): Calibración e isócronas
+
+2. Tarea 2
+	* [Parte 1](https://github.com/ffpenaloza/AstroExp/blob/master/tarea2-1/Respuestas.ipynb): Curvas de luz con Kepler
+	* [Parte 2](https://github.com/ffpenaloza/AstroExp/blob/master/tarea2-2/tarea2.2.ipynb): Tránsito planetario
+
+3. Tarea 3
+	* [Parte 1](https://github.com/ffpenaloza/AstroExp/blob/master/tarea3-1/tarea3-1.ipynb): GAIA
+	* [Parte 2](https://github.com/ffpenaloza/AstroExp/blob/master/tarea3-2/tarea3-2.ipynb): GAIA, diagrama BPT, spectral templates
+	
+4. Tarea 4
+	* [Parte 1](https://github.com/ffpenaloza/AstroExp/blob/master/tarea4-1/tarea4-1.ipynb): Binarias eclipsantes
+	* [Parte 2](https://github.com/ffpenaloza/AstroExp/blob/master/tarea4-2/Tarea4-2.ipynb): Binarias eclipsantes, ODUC
+	
+5. Tarea 5
+	* [Parte 1](https://github.com/ffpenaloza/AstroExp/blob/master/tarea5/tarea5.ipynb): M87
